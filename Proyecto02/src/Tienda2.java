@@ -198,6 +198,7 @@ public class Tienda2 {
 	 */
 	public void menuPrincipal() {
 		System.out.println("En esta tienda tenemos consumibles,atuendos, hechizos y armas, todos a un gran precio. Por favor ingresa el numero de la opcion a seleccionar.\n" +
+				"Dinero: " + personaje.getDinero() + "\n" + 
 				"1.- Comprar algo.\n" +
 				"2.- Salir de la tienda\n");
 		Scanner sc = new Scanner(System.in);

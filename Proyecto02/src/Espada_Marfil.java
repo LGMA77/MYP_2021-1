@@ -11,7 +11,7 @@ public String descripcion;
      * Metodo para crear armas.
      */
     public void creaArmas(){
-    tipo = "Espada Devoradora de Sangre";
+    tipo = "Espada Marfil";
     precio = 70;
     atk = 22;
     descripcion = "Una espada con una decoracion muy buena, aunque su daño no es el mejor. Daño 22, Precio 70.";

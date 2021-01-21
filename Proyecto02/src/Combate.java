@@ -288,6 +288,10 @@ public class Combate {
 
         // Se regresa al estado normal del personaje.
         personaje.setEstado(personaje.getNormal());
+        personaje.getCongelado().setTurnosEnEstado();
+        personaje.getEnvenenado().setTurnosEnEstado();
+        personaje.getQuemado().setTurnosEnEstado();
+
 
         // Se imprime el loot obtenido.
         int expObtenida = 0;
